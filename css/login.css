@@ -1,0 +1,49 @@
+
+body{
+    font-family: sans-serif !important;
+    overflow: none;
+}
+
+#uname{
+    width: 255px;
+    margin: 3vh 2%;
+    padding: 10px 0;
+    border: none;
+    border: 2px solid #652b27;
+    background: #fff;
+    font-family: Montserrat;
+    padding-right: 200px;
+    height: 30px;
+    padding-left: 15px;
+    text-transform: capitalize;
+}
+#pwd{
+    width: 255px;
+    margin: 3vh 2%;
+    padding: 10px 0;
+    border: none;
+    border: 2px solid #652b27;
+    background: #fff;
+    font-family: Montserrat;
+    padding-right: 200px;
+    height: 30px;
+    padding-left: 15px;
+    text-transform: capitalize;
+}
+
+
+.loginForm {
+    width: 500px;
+    margin: 150px 34%;
+    background: inherit;
+    margin-bottom: 20px;
+}
+#login {
+    color: #fff;
+    background: #ce6e2e;
+    width: 479px;
+    height: 47px;
+    padding: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+}

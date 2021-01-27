@@ -1,0 +1,109 @@
+.sideBar1 {
+    width: 250px;
+    max-width: 250px;
+    background: #303030;
+    position: fixed;    
+    top: 63px;
+    height: 100vh;
+    border-top: 1px #fff solid;
+    max-height: 100vh;
+    transition: 0.3s;
+    padding-top: 3.7em;
+    z-index: 100000;
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); */
+}
+
+
+.dashboard {
+    width: 100%;
+    max-width: 100%;
+    height: 4em;
+    background: #303030;
+    line-height: 4em;
+    text-align: right;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+    transition: 0.5s;
+}
+.insertform {
+    width: 500px;
+    margin: 100px 34%;
+    background: inherit;
+    margin-bottom: 20px;
+}
+
+#uname{
+    width: 255px;
+    margin: 3vh 2%;
+    padding: 10px 0;
+    border: none;
+    border: 2px solid #652b27;
+    background: #fff;
+    font-family: Montserrat;
+    padding-right: 200px;
+    height: 30px;
+    padding-left: 15px;
+    text-transform: capitalize;
+}
+select#category {
+    width: 473px;
+    border: 2px solid #652b27;
+}
+#login {
+    color: #fff;
+    background: #ce6e2e;
+    width: 479px;
+    height: 47px;
+    padding: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#pwd{
+    width: 255px;
+    margin: 3vh 2%;
+    padding: 10px 0;
+    border: none;
+    border: 2px solid #652b27;
+    background: #fff;
+    font-family: Montserrat;
+    padding-right: 200px;
+    height: 30px;
+    padding-left: 15px;
+    text-transform: capitalize;
+}
+div#table_results {
+    width: 84.2%;
+    float: right;
+    margin: 23px 0px;
+      background: rgba(0, 0, 0, 0.52);
+    color: #fff;
+}
+.hide{
+    display: none;
+}
+table.orders {
+    margin: 17px 1px;
+    width: 100%;
+    border-bottom:1px solid #fff;
+}
+.dashLink {
+    color: #fff;
+    display: inline-block;
+    padding: 15px 20%;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 300 !important;
+    border: none;
+    border-bottom: 2px solid #fff !important;
+    transition: 0.3s;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 5px;
+    width: 60%;
+    font-family: inherit;
+    font-size: 16px;
+    text-align: left;
+    background: none;
+    text-transform: capitalize;
+}
